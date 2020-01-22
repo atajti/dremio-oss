@@ -83,7 +83,7 @@
     <rocksdb.version>5.14.2</rocksdb.version>
 
     <!-- Use ES 5.5 instead of 5.6. The 5.6 client sends "source" instead of "inline" which isn't supported with older ES5 servers. -->
-    <elasticsearch.version>5.5.3</elasticsearch.version>
+    <elasticsearch.version>7.0.0</elasticsearch.version>
     <!-- Specify API versions to test ES against. -->
     <tests.elasticsearch.api.version>${elasticsearch.version}</tests.elasticsearch.api.version>
     <tests.elasticsearch.mvn.plugin.version>6.8</tests.elasticsearch.mvn.plugin.version>

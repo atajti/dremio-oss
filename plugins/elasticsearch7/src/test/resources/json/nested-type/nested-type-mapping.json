@@ -1,0 +1,24 @@
+{
+    "<TABLE_NAME>" : {
+        "properties" : {
+            "id" : { "type" : "integer" },
+            "username" : { "type" : "text" },
+            "address" : {
+                "type" : "nested",
+                "properties" : {
+                    "city"   : { "type" : "text" },
+                    "state"  : { "type" : "text" },
+                    "zip"    : { "type" : "integer" },
+                    "street" : { "type" : "text" },
+                    "phones" : {
+                        "type" : "nested",
+                        "properties" : {
+                            "mobile" : { "type" : "long" },
+                            "office" : { "type" : "long" }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
